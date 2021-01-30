@@ -1,0 +1,7 @@
+"0","#install.packages(""devtools"")
+devtools::install_github(""rstudio/fontawesome"")
+"
+"2","Using github PAT from envvar GITHUB_PAT
+"
+"2","Downloading GitHub repo rstudio/fontawesome@HEAD
+"
