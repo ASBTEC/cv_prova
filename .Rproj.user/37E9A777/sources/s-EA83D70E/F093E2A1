@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1612046662247.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F093E2A1",
+    "lastKnownWriteTime" : 1612047096,
+    "last_content_update" : 1612047096577,
+    "path" : "~/Desktop/Adria/Other/ASBTEC/cv_prova/PDF/plantilla_cv_curt.Rmd",
+    "project_path" : "PDF/plantilla_cv_curt.Rmd",
+    "properties" : {
+        "cursorPosition" : "59,0",
+        "scrollLine" : "43"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

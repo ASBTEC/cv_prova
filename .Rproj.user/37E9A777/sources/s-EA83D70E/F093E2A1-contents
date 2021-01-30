@@ -1,0 +1,71 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: templates/custom.tex
+geometry: margin=1in
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 9pt
+linkcolor: blue
+urlcolor: blue
+
+title: "CV"
+author: Associació de Biotecnòlegs de Catalunya
+
+jobtitle: "Biotecnòleg"
+address: "Catalunya"
+fontawesome: yes
+email: adria.mitjavila94@gmail.com
+github: ASBTEC
+# gitlab: no tenim gitlab
+# twitter: asbtec
+#osf: "Enter 5 digit osf string here"
+web: "asbtec.org"
+
+keywords: R Markdown, academic CV, template
+
+updated: yes
+---
+
+\vspace{3mm}
+
+\small 
+\emph{ L'Associació de Biotecnòlegs de Catalunya és una organització sense ànim de lucre dedicada a la promoció de la biotecnologia i la figura del biotecnòleg dins la societat }
+
+\normalsize
+
+
+# Educació \hrulefill
+
+*Institució*, PhD. Biotecnologia \hfill {\small\emph{Inici - Fi}}
+
+*Institució*, MSc. Biotecnologia \hfill {\small\emph{Inici - Fi}}
+
+*Institució*, BSc. Biotecnologia \hfill {\small\emph{Inici - Fi}}
+
+
+# Employment \hrulefill
+
+*Institució*  \hfill {\small\textbf{Lloc (País)}}
+
+* \footnotesize Biotecnòleg \hfill \emph{Inici - Fi}
+
+* \footnotesize Estudiant de doctorat en Biotecnologia \hfill \emph{Inici - Fi}
+
+*Institució*  \hfill {\small\textbf{Lloc (País)}}
+
+* \footnotesize Assistent a la recerca \hfill \emph{Inici - Fi}
+
+
+# Publications \hrulefill
+
+## Journal Articles
+
+\footnotesize ASBTEC *et al*. 2020 **Títol de l'article**. *Revista*. DOI: [xxxx](https://asbtec.org).
+
+
+# References \hrulefill
+
+\footnotesize Available upon request.
