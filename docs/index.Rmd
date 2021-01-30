@@ -6,7 +6,7 @@ output:
     toc_float: yes
     toc_depth: 2
     theme: cerulean
-    self_contained: true
+    self_contained: false
 ---
 
 <!-- Això és un comentari d'HTML i no apareix al document HTML final -->
