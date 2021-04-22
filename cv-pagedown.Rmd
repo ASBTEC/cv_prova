@@ -1,0 +1,163 @@
+---
+title: "Adria Mitjavila - CV"
+author: Adrià Mitjavila Ventura
+output:
+  pagedown::html_resume:
+    css: ['css/styles.css', 'resume']
+    # set to true to be able to see it in the navigator; false to visualize in the RStudio viewer
+    self_contained: true
+# this will produce the pdf output directly
+knit: pagedown::chrome_print
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  results = "asis", 
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
+
+library(tidyverse)
+library(fontawesome)
+```
+
+# Aside
+
+<center>
+![](LOGO_MODIFICAT.png){ width="50%" }
+</center>
+
+## Contacte {#contact}
+
+-   <i class="fa fa-home"></i> Cerdanyola del Vallès
+-   <i class="fa fa-globe"></i> [Lloc web](https://asbtec.cat)
+-   <i class="fa fa-envelope"></i> [comunicacio\@asbtec.cat](comunicacio@asbtec.cat){.email}
+-   `r fontawesome::fa(name = "github")` [github.com/ASBTEC](https://github.com/ASBTEC)
+-   <i class="fa fa-phone"></i> ...
+
+## Aptituds {#skills}
+
+**Programació/_Scripting_**:
+
+* R/Bioconductor
+
+**Tècniques experimentals**:
+
+* (q)PCR
+* Western Blot
+* CRISPR-Cas9
+
+**Llengües**:
+
+* Català
+* Castellà
+* Anglès
+
+## Disclaimer {#disclaimer}
+
+Fet amb el paquet [**pagedown**](https://github.com/rstudio/pagedown).
+
+Actualitzat a: `r Sys.Date()`.
+
+# Main
+
+## ASBTEC {#title}
+
+### Buscant feina 
+
+Formo part d'una associació de biotecnòlegs en la que tenim com a objectiu la promoció i professionalització de la figura del biotecnòleg. 
+
+## Educació {data-icon="graduation-cap" data-concise="true"}
+
+### Universitat
+
+Nom del grau/curs/títol
+
+Lloc
+
+0000
+
+Descripció
+
+### Universitat
+
+Nom del grau/curs/títol
+
+Lloc
+
+0000 - Present
+
+Descripció
+
+### Universitat XXXXXX
+
+Màster en Biotecnologia
+
+Catalunya
+
+2017 - 2018
+
+TFM: xxxxxxxxxxxxxxxxxxx
+
+### Universitat XXXXXX
+
+Grau en Biotecnologia
+
+Catalunya
+
+2013 - 2017
+
+TFG: xxxxxxxxxxxxxxxxxxx
+
+
+## Experiència {data-icon="laptop"}
+
+### Posició 1
+
+Nom del centre
+
+Lloc
+
+01/2019 - Present
+
+-   Descripció 1.
+-   Descripció 2.
+
+### Posició 2
+
+Nom del centre
+
+Lloc
+
+01/2018 - 12/2018
+
+::: concise
+-   Descripció 1.
+-   Descripció 2.
+-   Descripció 2.
+-   Descripció 2.
+:::
+
+## Selected Publications and Posters {data-icon="file"}
+
+### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+
+Poster for 2013 International Conference of Genomics
+
+Qingdao, China
+
+2014
+
+**Yu L**, Chen B, Zhang Z.
+
+### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+
+J Cell Sci. 2016 May 15;129(10):2075-84.
+
+N/A
+
+2016
+
+Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.
